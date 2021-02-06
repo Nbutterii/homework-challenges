@@ -1,0 +1,38 @@
+$levelShadow: #d4d4d4;
+  
+.container{
+    width: 100%;
+    height: auto;
+    display : flex;
+    flex-direction : row ;
+    justify-content : space-around;
+    flex-flow : wrap;
+
+    .box{
+      width: 320px;
+      margin: 5px;
+      box-sizing: border-box;
+      padding: 10px;
+    }
+  
+    .box:hover {
+      box-shadow: 0 3px 6px $levelShadow, 0 3px 6px $levelShadow;
+    }
+
+    .presentation-img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .presentation-title {
+      font-size: 15px;
+    }
+  
+    .presentation-time {
+      font-size: 12px;
+    }
+  
+    .presentation-price {
+      font-size: 18px;
+    }
+}
